@@ -1,0 +1,15 @@
+# Игнорировать файл passwords.txt.
+passwords.txt
+.directory
+
+# Игнорировать директорию venv
+venv
+
+# Игнорировать файл side.txt в директории build.
+build/side.txt
+
+# Игнорировать все файлы с расширением .pyc
+# Эти файлы могут у вас появляться запуске скрипта.
+# Что это за файлы, можно прочитать на StackOverflow:
+# https://stackoverflow.com/questions/2998215/if-python-is-interpreted-what-are-pyc-files
+*.pyc
